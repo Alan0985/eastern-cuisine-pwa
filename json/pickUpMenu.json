@@ -1,0 +1,296 @@
+[
+  {
+    "menuListID": "01",
+    "menuListName": "Starter",
+    "dishItems": [
+      {
+        "dishID": "a1",
+        "dishTitle": "Spring Rolls",
+        "dishDetail": "Spring Rolls Spring Rolls Spring Rolls",
+        "dishFullDetail":
+          "Spring Rolls Spring Rolls Spring Rolls Spring Rolls Spring Rolls Spring Rolls Spring Rolls Spring Rolls Spring Rolls",
+        "dishPrice": 5.5
+      },
+      {
+        "dishID": "a2",
+        "dishTitle": "Deep Fried Won Ton",
+        "dishDetail":
+          "Deep Fried Won Ton Deep Fried Won Ton",
+        "dishFullDetail":
+          "Deep Fried Won Ton Deep Fried Won Ton Deep Fried Won Ton Deep Fried Won Ton Deep Fried Won Ton Deep Fried Won Ton",
+        "dishPrice": 5.5
+      },
+      {
+        "dishID": "a3",
+        "dishTitle": "Deep Fried Squid",
+        "dishDetail": "Deep Fried Squid Deep Fried Squid",
+        "dishFullDetail":
+          "Deep Fried Squid Deep Fried Squid Deep Fried Squid Deep Fried Squid Deep Fried Squid Deep Fried Squid Deep Fried Squid",
+        "dishPrice": 7.0
+      },
+      {
+        "dishID": "a5",
+        "dishTitle": "Crumbled Prawns",
+        "dishDetail": "Crumbled Prawns Crumbled Prawns Crumbled Prawns",
+        "dishFullDetail":
+          "Crumbled Prawns Crumbled Prawns Crumbled Prawns Crumbled Prawns Crumbled Prawns Crumbled Prawns Crumbled Prawns Crumbled Prawns Crumbled Prawns",
+        "dishPrice": 8.0
+      },
+      {
+        "dishID": "a6",
+        "dishTitle": "Garlic King Prawns",
+        "dishDetail":
+          "Garlic King Prawns Garlic King Prawns Garlic King Prawns",
+        "dishFullDetail":
+          "Garlic King Prawns Garlic King Prawns Garlic King Prawns Garlic King Prawns Garlic King Prawns Garlic King Prawns Garlic King Prawns Garlic King Prawns Garlic King Prawns",
+        "dishPrice": 8.0
+      },
+      {
+        "dishID": "a7",
+        "dishTitle": "Steamed Pork Balls(Dim Sims)",
+        "dishDetail":
+          "Steamed Pork Balls(Dim Sims)",
+        "dishFullDetail":
+          "Steamed Pork Balls(Dim Sims) Steamed Pork Balls(Dim Sims) Steamed Pork Balls(Dim Sims) Steamed Pork Balls(Dim Sims) Steamed Pork Balls(Dim Sims) Steamed Pork Balls(Dim Sims) Steamed Pork Balls(Dim Sims)",
+        "dishPrice": 5.5
+      },
+      {
+        "dishID": "a8",
+        "dishTitle": "Honey BBQ Pork",
+        "dishDetail":
+          "Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork",
+        "dishFullDetail":
+          "Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork Honey BBQ Pork",
+        "dishPrice": 7.0
+      },
+      {
+        "dishID": "a11",
+        "dishTitle": "Prawn Crackers",
+        "dishDetail":
+          "Prawn Crackers Prawn Crackers Prawn Crackers",
+        "dishFullDetail":
+          "Prawn Crackers Prawn Crackers Prawn Crackers Prawn Crackers Prawn Crackers Prawn Crackers Prawn Crackers Prawn Crackers Prawn Crackers",
+        "dishPrice": 3.0
+      }
+    ]
+  },
+
+  {
+    "menuListID": "02",
+    "menuListName": "Soup",
+    "dishItems": [
+      {
+        "dishID": "so1",
+        "dishTitle": "Won Ton Soup",
+        "dishDetail": "Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup",
+        "dishFullDetail":
+          "Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup Won Ton Soup",
+        "dishPrice": 6.0
+      },
+      {
+        "dishID": "so2",
+        "dishTitle": "Won Ton BBQ Pork Soup",
+        "dishDetail": "Won Ton BBQ Pork Soup Won Ton BBQ Pork Soup",
+        "dishFullDetail":
+          "Won Ton With BBQ Pork Soup Won Ton With BBQ Pork Soup Won Ton With BBQ Pork Soup Won Ton With BBQ Pork Soup Won Ton With BBQ Pork Soup",
+        "dishPrice": 8.0
+      },
+      {
+        "dishID": "so3",
+        "dishTitle": "Chicken Sweet Corn Soup",
+        "dishDetail":
+          "Chicken Sweet Corn Soup Chicken Sweet Corn Soup",
+        "dishFullDetail":
+          "Chicken And Sweet Corn Soup Chicken And Sweet Corn Soup Chicken And Sweet Corn Soup Chicken And Sweet Corn Soup Chicken And Sweet Corn Soup Chicken And Sweet Corn Soup",
+        "dishPrice": 6.0
+      },
+      {
+        "dishID": "so4",
+        "dishTitle": "Hot And Sour Bean Curd Soup(Spicy)",
+        "dishDetail":
+          "Hot Sour Bean Curd Soup",
+        "dishFullDetail":
+          "Hot And Sour Bean Curd Soup(Spicy) Hot And Sour Bean Curd Soup(Spicy) Hot And Sour Bean Curd Soup(Spicy)",
+        "dishPrice": 7.0
+      }
+    ]
+  },
+
+  {
+    "menuListID": "07",
+    "menuListName": "Pork",
+    "dishItems": [
+      {
+        "dishID": "p2",
+        "dishTitle": "Pork Veg and Cashews",
+        "dishDetail":
+          "Pork Veg and Cashews Pork Veg and Cashews",
+        "dishFullDetail":
+          " Pork, Veg and Cashews Pork, Veg and Cashews Pork, Veg and Cashews Pork, Veg and Cashews Pork, Veg and Cashews Pork, Veg and Cashews Pork, Veg and Cashews Pork, Veg and Cashews",
+        "dishPrice": 14.5
+      },
+      {
+        "dishID": "p6",
+        "dishTitle": "Sweet And Sour Pork",
+        "dishDetail":
+          "Sweet And Sour Pork Sweet And Sour Pork",
+        "dishFullDetail":
+          "Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork",
+        "dishPrice": 13.5
+      },
+      {
+        "dishID": "p7",
+        "dishTitle": "Sweet And Sour Pork",
+        "dishDetail":
+          "Sweet And Sour Pork Sweet And Sour Pork",
+        "dishFullDetail":
+          "Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork",
+        "dishPrice": 13.5
+      },
+      {
+        "dishID": "p8",
+        "dishTitle": "Sweet And Sour Pork",
+        "dishDetail":
+          "Sweet And Sour Pork Sweet And Sour Pork",
+        "dishFullDetail":
+          "Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork Sweet And Sour Pork",
+        "dishPrice": 13.5
+      }
+    ]
+  },
+
+  {
+    "menuListID": "08",
+    "menuListName": "Beef",
+    "dishItems": [
+      {
+        "dishID": "b1",
+        "dishTitle": "Beef Veg And Black Bean Sauce",
+        "dishDetail":
+          " Beef Veg And Black Bean Sauce",
+        "dishFullDetail":
+          "Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce Beef, Veg And Black Bean Sauce",
+        "dishPrice": 13.5
+      },
+      {
+        "dishID": "b5",
+        "dishTitle": "Black Pepper Sirloin Steak",
+        "dishDetail":
+          "Black Pepper Sirloin Steak",
+        "dishFullDetail":
+          "Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak",
+        "dishPrice": 16.5
+      },
+      {
+        "dishID": "b6",
+        "dishTitle": "Black Pepper Sirloin Steak",
+        "dishDetail":
+          "Black Pepper Sirloin Steak Black Pepper Sirloin Steak",
+        "dishFullDetail":
+          "Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak",
+        "dishPrice": 16.5
+      },
+      {
+        "dishID": "b7",
+        "dishTitle": "Black Pepper Sirloin Steak",
+        "dishDetail":
+          "Black Pepper Sirloin Steak Black Pepper Sirloin Steak",
+        "dishFullDetail":
+          "Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak Black Pepper Sirloin Steak",
+        "dishPrice": 16.5
+      }
+    ]
+  },
+
+  {
+    "menuListID": "10",
+    "menuListName": "Duck",
+    "dishItems": [
+      {
+        "dishID": "d1",
+        "dishTitle": "Roast Duck(with bones)",
+        "dishDetail": " Roast Duck(with bones) Roast Duck(with bones)",
+        "dishFullDetail":
+          "Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones)",
+        "dishPrice": 25.0
+      },
+      {
+        "dishID": "d5",
+        "dishTitle": "Peking Duck(with pancake)",
+        "dishDetail":
+          "Peking Duck(with pancake) Peking Duck(with pancake)",
+        "dishFullDetail":
+          "Peking Duck(with pancake) Peking Duck(with pancake) Peking Duck(with pancake) Peking Duck(with pancake) Peking Duck(with pancake) Peking Duck(with pancake)",
+        "dishPrice": 35.0
+      },
+      {
+        "dishID": "d6",
+        "dishTitle": "Roast Duck(with bones)",
+        "dishDetail": " Roast Duck(with bones) Roast Duck(with bones)",
+        "dishFullDetail":
+          "Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones)",
+        "dishPrice": 25.0
+      },
+      {
+        "dishID": "d7",
+        "dishTitle": "Roast Duck(with bones)",
+        "dishDetail": " Roast Duck(with bones) Roast Duck(with bones)",
+        "dishFullDetail":
+          "Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones) Roast Duck(with bones)",
+        "dishPrice": 25.0
+      }
+    ]
+  },
+
+  {
+    "menuListID": "09",
+    "menuListName": "Chicken",
+    "dishItems": [
+      {
+        "dishID": "c4",
+        "dishTitle": "Chicken Veg And Black Bean Sauce",
+        "dishDetail": " Chicken, Veg And Black Bean Sauce",
+        "dishFullDetail":
+          "Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce Chicken, Veg And Black Bean Sauce",
+        "dishPrice": 13.5
+      },
+      {
+        "dishID": "c7",
+        "dishTitle": "Lemon Chicken",
+        "dishDetail":
+          "Lemon Chicken Lemon Chicken Lemon Chicken",
+        "dishFullDetail":
+          "Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken",
+        "dishPrice": 13.5
+      },
+      {
+        "dishID": "c8",
+        "dishTitle": "Lemon Chicken",
+        "dishDetail":
+          "Lemon Chicken Lemon Chicken Lemon Chicken",
+        "dishFullDetail":
+          "Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken",
+        "dishPrice": 13.5
+      },
+      {
+        "dishID": "c9",
+        "dishTitle": "Lemon Chicken",
+        "dishDetail":
+          "Lemon Chicken Lemon Chicken Lemon Chicken",
+        "dishFullDetail":
+          "Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken Lemon Chicken",
+        "dishPrice": 13.5
+      }
+    ]
+  },
+
+  {
+    "menuListID": "11",
+    "menuListName": "Seafood"
+  },
+
+  {
+    "menuListID": "04",
+    "menuListName": "Chow Mein"
+  }
+]

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Menu</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#cb423c" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+
+    <!-- menu css -->
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+    <!-- Manifest JSON -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Manifest JSON -->
+    <!-- <link rel="manifest" href="https://www.sweetasnz.ml/p/manifest.json"> -->
+</head>
+
+<body>
+    <!-- Mobile Header Starts Here -->
+    <header id="mobileHeader">
+        <div class="logo text-center">
+            <a href="index.html">Eastern Cuisine</a>
+            <p>Chinese Restaurant And Takeaway</p>
+        </div>
+    </header>
+    <!-- Mobile Header Ends Here -->
+
+    <!-- Desktop Header Starts Here -->
+    <div class="desktopHeader">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top paddingfix">
+
+            <a class="navbar-brand" href="index.html">Eastern Cuisine</a>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Catering</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cart.html">
+                        <i class="fas fa-cart-arrow-down"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Desktop Header Ends Here -->
+
+    <div id="dishModalWrapper">
+    </div>
+
+    <!-- Tabs Start Here -->
+    <div>
+        <div>
+            <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
+                <li class="nav-item text-center">
+                    <a class="nav-link active" id="pickUp-tab" data-toggle="tab" href="#pickUpTag" role="tab"
+                        aria-controls="pickUpTag" aria-selected="true">Pick Up</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" id="dineIn-tab" data-toggle="tab" href="#dineInTag" role="tab" aria-controls="dineInTag"
+                        aria-selected="false">Dine In</a>
+                </li>
+                <li class="nav-item text-center">
+                    <a class="nav-link" id="setMenu-tab" data-toggle="tab" href="#setMenuTag" role="tab" aria-controls="setMenuTag"
+                        aria-selected="false">Set Menu</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Pick Up Starts Here -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="pickUpTag" role="tabpanel" aria-labelledby="pickUp-tab">
+                <div id="pickUpMeals" class="meals">
+                </div>
+            </div>
+            <!-- Pick Up Ends Here -->
+
+            <!-- Dine In Starts Here -->
+            <div class="tab-pane fade show" id="dineInTag" role="tabpanel" aria-labelledby="dineIn-tab">
+                <div id="dineInMeals" class="meals">
+                </div>
+            </div>
+            <!-- Dine In Ends Here -->
+
+            <div class="tab-pane fade" id="setMenuTag" role="tabpanel" aria-labelledby="setMenu-tab">
+                <div id="setMenu" class="meals">
+                    <h1>Set Menu Placeholder</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tabs End Here -->
+
+    <!-- Bottom Navbar Modal Starts Here -->
+    <div id="modal" class="modal text-center">
+        <div id="modalAbout" class="nav-item"><a href="#">About</a></div>
+        <div id="modalMenu" class="nav-item"><a href="menu.html">Menu</a></div>
+        <div id="modalCatering" class="nav-item"><a href="#">Catering</a></div>
+        <div id="modalBooking" class="nav-item"><a href="#">Booking</a></div>
+        <div id="modalContact" class="nav-item"><a href="#">Contact</a></div>
+    </div>
+    <!-- Bottom Navbar Modal Ends Here -->
+
+    <!-- Mobile Footer Starts Here -->
+    <footer id="mobileFooter">
+        <div class="container-fluid paddingfix">
+            <div class="row bottomNavBar">
+                <div class="col col-sm-4 text-center">
+                    <a id="homeIcon" class="bottomNavBarItem" href="index.html">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </div>
+
+                <div class="col col-sm-4 text-center">
+                    <a id="toggleBar" class="bottomNavBarItem active" onclick="toggleModal()" href="#modal">
+                        <i id="barsIcon" class="fas fa-bars"></i>
+                    </a>
+                </div>
+
+                <div class="col col-sm-4 text-center">
+                    <a id="cartIcon" class="bottomNavBarItem" href="cart.html">
+                        <i class="fas fa-cart-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Mobile Footer Ends Here -->
+
+    <!-- Desktop Footer Starts Here -->
+    <div id="desktopFooter" class="text-center">
+        <div class="row footerContent">
+            <div class="col col-8">
+                <p>All Rights Reserved &copy;Eastern Cuisine Restaurant 2018 / Developed by Alan Wang</p>
+            </div>
+
+            <div class="col col-4">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Desktop Footer Ends Here -->
+
+    <!-- jQuery  And Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
+    <!-- Modal And Bottom Navbar Javascript -->
+    <script src="js/navbarModal2.js"></script>
+
+    <!-- Menu Javascript -->
+    <script src="js/menu.js"></script>
+</body>
+
+</html>

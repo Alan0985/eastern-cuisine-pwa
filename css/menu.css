@@ -1,0 +1,586 @@
+html,
+body,
+div,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.col,
+.row {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+}
+
+.paddingfix {
+  padding: 0;
+}
+/*************************** Header*************************/
+header {
+  width: 100%;
+  height: 80px;
+  /* top: 0;
+  left: 0;
+  position: fixed; */
+  z-index: 100;
+  background-color: #cb423c;
+  border-bottom: 1px solid #fff;
+}
+
+header .logo a {
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid #fff;
+}
+
+header .logo p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.desktopHeader {
+  display: none;
+}
+
+/********************** Dish Detail Modal *******************/
+.dishModal .dishModalContent {
+  width: 98%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.dishModal .dishModalHeader {
+  height: 40px;
+  color: #fff;
+  background-color: #cb423c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.dishModal #dishModalTitle {
+  line-height: 40px;
+}
+
+.dishModal img {
+  width: 100%;
+}
+
+.dishModal .dishFullDetail {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dishModal .specialTag {
+  width: 80%;
+  border: 1px solid #cb423c;
+  border-radius: 3px;
+  margin: 3px auto;
+}
+
+.dishModal #noCarrots,
+.dishModal #noCelery,
+.dishModal #medium {
+  color: #fff;
+  background-color: #cb423c;
+}
+
+.dishModal input {
+  width: 90%;
+  margin: 3px auto;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.dishModal input:focus {
+  border: 1px solid #cb423c;
+  outline: none;
+}
+
+.dishModal .dishModalFooter {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.dishModal .dishModalBtn {
+  color: #fff;
+  background-color: #cb423c;
+  border-style: none;
+  border-radius: 3px;
+  margin: 0 5px;
+  padding: 2px 15px;
+}
+
+/*************************** Tags *************************/
+#myTab {
+  z-index: 99;
+  border-bottom: 1px solid #cb423c;
+  background-color: #fff;
+}
+
+.nav-item {
+  margin: 0 auto;
+}
+
+.nav-item a {
+  padding: 1vh 0;
+}
+
+#myTab .nav-item .nav-link {
+  color: #cb423c;
+  width: 80px;
+  font-weight: bold;
+}
+
+#myTab .nav-item.show .nav-link,
+#myTab .nav-link.active {
+  border: none;
+  border-bottom: 3px solid #cb423c;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.tab-content {
+  padding-top: 10px;
+}
+
+/*************************** Meals *************************/
+.menubar {
+  width: 245px;
+  margin: 10px auto;
+  height: 36px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #cb423c;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.menubar a {
+  display: block;
+}
+
+#pickUpMeals,
+#dineInMeals,
+#setMenu {
+  margin-bottom: 80px;
+}
+
+.meals .item {
+  margin: 1px 0;
+  width: 100vw;
+  height: 34vw;
+  border: 1px solid #cb423c;
+  border-radius: 5px;
+}
+
+.meals img {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.meals .dishText {
+  height: 75%;
+  display: block;
+}
+
+.meals .dishTitle {
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: top;
+}
+
+.meals .dishDetail {
+  font-size: 16px;
+  color: #7d858c;
+  vertical-align: top;
+}
+
+.meals .pricePlus {
+  height: 25%;
+  color: #cb423c;
+}
+
+.meals .dishPrice {
+  float: left;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.meals i {
+  float: right;
+  font-size: 29px;
+  line-height: 29px;
+  padding-right: 3%;
+}
+
+.meals .fa-plus {
+  color: #cb423c;
+}
+.meals .fa-check-square {
+  color: #66a80f;
+}
+/******************** Bottom Navbar Modal ******************/
+#modal {
+  height: 100%-40px;
+  top: 100vh;
+  margin-bottom: 40px;
+  display: block;
+  z-index: 100;
+}
+
+#modal .nav-item {
+  position: relative;
+  top: 100vh;
+  left: 0;
+  width: 4%;
+  height: 20%;
+  display: table;
+  background-color: #cb423c;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  transition: all 0.5s ease-out;
+  opacity: 0;
+}
+
+#modal .nav-item a,
+.collapseItem a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#modal .collapseItem {
+  width: 100%;
+  height: 50px;
+  display: table;
+  background-color: #cb423c;
+  opacity: 0.9;
+  border-bottom: 1px solid #fff;
+  transition: all 0.5s ease-out;
+}
+
+#modal .collapseItem a {
+  font-size: 20px;
+}
+
+/************************* Footer ***********************/
+#desktopFooter {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 200;
+  background-color: #fff;
+}
+
+footer .bottomNavBar a {
+  color: #cb423c;
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer #barsIcon {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+footer .bottomNavBar .active {
+  color: #fff;
+  background-color: #cb423c;
+  transition: 0.3s ease-in-out;
+}
+
+/************************ Loader **********************/
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #cb423c;
+  width: 60px;
+  height: 60px;
+  margin: 15% auto;
+  -webkit-animation: spin 1s linear infinite; /* Safari */
+  animation: spin 1s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* 5
+5
+5
+5
+5
+5
+5
+5
+5
+5
+5 */
+/* Media Queries */
+@media (min-width: 576px) {
+  /*************************** Header *************************/
+  header {
+    height: 90px;
+  }
+
+  header .logo a {
+    font-size: 42px;
+  }
+
+  header .logo p {
+    font-size: 16px;
+  }
+
+  .meals .item {
+    width: 42vw;
+    height: 14vw;
+  }
+}
+
+/* 77777777
+77777777
+77777777
+77777777
+77777777
+77777777
+77777777
+77777777
+77777777
+77777777 */
+/* iPad */
+@media (min-width: 768px) {
+  /*************************** Header *************************/
+  header {
+    display: none;
+  }
+
+  .desktopHeader {
+    display: block;
+    width: 100%;
+    height: 6vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 200;
+    background-color: #cb423c;
+  }
+
+  nav {
+    max-width: 95%;
+    font-size: 1.1em;
+    margin: 0 auto;
+    line-height: 6vh;
+  }
+
+  nav a {
+    padding: 0 5px !important;
+  }
+
+  nav .navbar-brand {
+    font-size: 35px;
+  }
+
+  #myTab {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    margin-top: 6vh;
+  }
+
+  .tab-content {
+    margin-top: 15vh;
+    min-height: 600px;
+  }
+
+  /*************************** Tags *************************/
+  .nav-tabs {
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 1px solid #cb423c;
+  }
+
+  .nav-item {
+    margin: 0 auto;
+  }
+
+  .nav-tabs .nav-item .nav-link {
+    color: #cb423c;
+    width: 20vw;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: #cb423c;
+    border-color: #cb423c #cb423c #fff;
+    font-weight: bold;
+  }
+
+  /*************************** Meals *************************/
+  .menubar {
+    width: 345px;
+    min-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    background-color: #cb423c;
+    border-radius: 5px;
+  }
+
+  .meals {
+    padding: 0 7vw;
+  }
+
+  .meals .item {
+    margin: 3px;
+    border: 1px solid #cb423c;
+    border-radius: 5px;
+    width: 42vw;
+    height: 14vw;
+  }
+
+  .meals img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  /*************************** Footer *************************/
+
+  #mobileFooter {
+    display: none;
+  }
+
+  #desktopFooter {
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    background-color: #cb423c;
+  }
+
+  #desktopFooter .footerContent {
+    margin: 0 auto;
+  }
+
+  #desktopFooter p {
+    color: #fff;
+    line-height: 60px;
+    font-size: 12px;
+  }
+
+  #desktopFooter i {
+    color: #fff;
+    line-height: 60px;
+    font-size: 40px;
+  }
+}
+/* 9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999
+9999999999999999999999999999 */
+@media (min-width: 992px) {
+  /************************* Header ***********************/
+  nav {
+    max-width: 80%;
+    font-size: 1.2em;
+  }
+
+  nav .navbar-brand {
+    font-size: 45px;
+  }
+}
+/* 1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121
+1212121212121212121212121212121212121212121212121212121 */
+@media (min-width: 1200px) {
+  .desktopHeader {
+    height: 10vh;
+  }
+
+  nav {
+    font-size: 1.5em;
+    line-height: 10vh;
+  }
+
+  nav a {
+    padding: 0 16px !important;
+  }
+
+  nav .navbar-brand {
+    font-size: 50px;
+  }
+
+  #myTab {
+    margin-top: 10vh;
+  }
+
+  .meals .item {
+    width: 21vw;
+    height: 7vw;
+  }
+
+  #desktopFooter .footerContent {
+    width: 80%;
+  }
+
+  #desktopFooter p {
+    font-size: 14px;
+  }
+}
