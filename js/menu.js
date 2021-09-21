@@ -22,8 +22,7 @@ $(function() {
 
   $.ajax({
     type: "GET",
-    url: "https://www.sweetasnz.ml/ec/json/pickUpMenu.json",
-    // url: "http://127.0.0.1:5500/json/pickUpMenu.json",
+    url: "https://raw.githubusercontent.com/Alan0985/eastern-cuisine-pwa/master/json/pickUpMenu.json",
     dataType: "json",
     success: function(response) {
       $("#pickUpMeals").empty();
@@ -132,8 +131,7 @@ function checkDish(dishID, dishTitle, dishPrice) {
 $(function() {
   $.ajax({
     type: "GET",
-    url: "https://www.sweetasnz.ml/ec/json/pickUpMenu.json",
-    // url: "http://127.0.0.1:5500/json/pickUpMenu.json",
+    url: "https://raw.githubusercontent.com/Alan0985/eastern-cuisine-pwa/master/json/pickUpMenu.json",
     dataType: "json",
     success: function(response) {
       $.each(response, function(key, value) {
@@ -190,8 +188,7 @@ $(function() {
 
   $.ajax({
     type: "GET",
-    url: "https://www.sweetasnz.ml/ec/json/dineInMenu.json",
-    // url: "http://127.0.0.1:5500/json/dineInMenu.json",
+    url: "https://raw.githubusercontent.com/Alan0985/eastern-cuisine-pwa/master/json/dineInMenu.json",
     dataType: "json",
     success: function(response) {
       $("#dineInMeals").empty();
@@ -259,8 +256,7 @@ $(function() {
 $(function() {
   $.ajax({
     type: "GET",
-    url: "https://www.sweetasnz.ml/ec/json/dineInMenu.json",
-    // url: "http://127.0.0.1:5500/json/dineInMenu.json",
+    url: "https://raw.githubusercontent.com/Alan0985/eastern-cuisine-pwa/master/json/dineInMenu.json",
     dataType: "json",
     success: function(response) {
       $.each(response, function(key, value) {
